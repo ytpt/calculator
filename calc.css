@@ -1,0 +1,72 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+#container {
+    width: 364px;
+    height: 582px;
+    background: #000;
+    color: #fff;
+    padding: 21px 20px 25px 20px;
+}
+button {
+    border-radius: 24px;
+    background: #2E2F38;
+    color: #fff;
+    border: none;
+    height: 72px;
+    cursor: pointer;
+}
+button:hover {
+    background: #4E505F;
+}
+#screen {
+    max-width: 340px;
+    max-height: 96px;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 96px;  
+    align-items: center;
+    text-align: right;
+    margin: 0 20px 16px 0;
+    overflow: hidden;
+}
+#btnC { 
+    background: #4E505F;
+}
+#btnC:hover {
+    background: #53545c;
+}
+#firstLine {
+    display: grid;
+    grid-template-columns: 154px 69px 69px;
+    column-gap: 16px;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+#firstLine i {
+    font-size: 25px;
+}
+#numbersLine {
+    display: grid;
+    grid-template-columns: repeat(4, 69px);
+    column-gap: 16px;
+    row-gap: 16px;
+    justify-content: center;
+}
+.btnBlue {
+    background: #4B5EFC;
+}
+.btnBlue:hover {
+    background: #2036fa;
+}
+#lastLine {
+    display: grid;
+    grid-template-columns: 239px 69px;
+    column-gap: 16px;
+    margin-top: 16px;
+    justify-content: center;
+}
